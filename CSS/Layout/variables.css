@@ -1,0 +1,105 @@
+:root {
+  --color-primary-100: rgba(238, 247, 243, 1);
+  --color-primary-200: rgba(199, 234, 218, 1);
+  --color-primary-300: rgba(151, 206, 184, 1);
+  --color-primary-400: rgba(111, 169, 143, 1);
+  --color-primary-500: rgba(72, 137, 113, 1);
+  --color-primary-600: rgba(43, 100, 85, 1);
+  --color-primary-700: rgba(29, 73, 71, 1);
+  --color-primary-800: rgba(18, 57, 58, 1);
+  --color-primary-900: rgba(12, 39, 47, 1);
+  --color-accent-500: rgba(255, 186, 38, 1);
+  --color-grays-100: rgba(247, 247, 248, 1);
+  --color-grays-200: rgba(218, 223, 226, 1);
+  --color-grays-300: rgba(183, 189, 194, 1);
+  --color-grays-400: rgba(152, 162, 169, 1);
+  --color-grays-500: rgba(120, 134, 145, 1);
+  --color-grays-600: rgba(94, 109, 120, 1);
+  --color-grays-700: rgba(63, 78, 90, 1);
+  --color-grays-800: rgba(36, 53, 66, 1);
+  --color-grays-900: rgba(15, 27, 36, 1);
+  --color-error-100: rgba(252, 232, 214, 1);
+  --color-error-200: rgba(247, 202, 174, 1);
+  --color-error-300: rgba(243, 167, 133, 1);
+  --color-error-400: rgba(240, 135, 102, 1);
+  --color-error-500: rgba(237, 85, 57, 1);
+  --color-error-600: rgba(203, 59, 44, 1);
+  --color-error-700: rgba(169, 41, 35, 1);
+  --color-error-800: rgba(136, 30, 32, 1);
+  --color-error-900: rgba(113, 23, 32, 1);
+
+  --depth-4: 0px 4.8px 14.4px rgba(0, 0, 0, 0.18),
+    0px 25.6px 57.6px rgba(0, 0, 0, 0.22);
+  --depth-3: 0px 1.2px 3.6px rgba(0, 0, 0, 0.108),
+    0px 6.4px 14.4px rgba(0, 0, 0, 0.132);
+  --depth-2: 0px 0.6px 1.8px rgba(0, 0, 0, 0.108),
+    0px 3.2px 7.2px rgba(0, 0, 0, 0.132);
+  --depth-1: 0px 0.3px 0.9px rgba(0, 0, 0, 0.108),
+    0px 1.6px 3.6px rgba(0, 0, 0, 0.132);
+}
+
+.text-style-headline-headline-1 {
+  font-size: 48px;
+  font-family: "Cairo";
+  line-height: 120.00000476837158px;
+}
+.text-style-headline-headline-2 {
+  font-size: 36px;
+  font-family: "Cairo";
+  line-height: 120.00000476837158px;
+}
+.text-style-headline-headline-3 {
+  font-size: 24px;
+  font-family: "Cairo";
+  line-height: 120.00000476837158px;
+}
+.text-style-headline-headline-4 {
+  font-size: 20px;
+  font-family: "Cairo";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 120.00000476837158px;
+}
+.text-style-subtitle-subtitle-1 {
+  font-size: 16px;
+  font-family: "Cairo";
+  line-height: 139.9999976158142px;
+}
+.text-style-subtitle-subtitle-2 {
+  font-size: 14px;
+  font-family: "Cairo";
+  line-height: 139.9999976158142px;
+}
+.text-style-body-body-1 {
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 160.0000023841858px;
+}
+.text-style-body-body-2 {
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 160.0000023841858px;
+}
+.text-style-other-caption {
+  font-size: 12px;
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 139.9999976158142px;
+}
+.text-style-other-overline {
+  font-size: 10px;
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 139.9999976158142px;
+}
+.text-style-other-button {
+  font-size: 14px;
+  font-family: "Inter";
+  line-height: 40px;
+}
