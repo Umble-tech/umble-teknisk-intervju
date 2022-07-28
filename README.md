@@ -2,7 +2,7 @@
 Oppgaver til teknsik intervju med Umble
 
 1. Layout
-2. Hente data fra Sanity (projectID: elxpf1tu, dataset: production)
+2. Hente data fra Sanity (projectID: elxpf1tu, dataset: production) [Dokumentasjon](https://www.sanity.io/docs/overview-introduction)
 
 3. Implementere filteret
 
