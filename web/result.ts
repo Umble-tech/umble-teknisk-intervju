@@ -1,3 +1,15 @@
+interface Props {
+  documentation: boolean;
+  endDate: string;
+  startDate: string;
+  transportation: boolean;
+  massType: "Sprengstein" | "Pukk" | "Grus";
+  price: number;
+  project: {
+    name: string;
+  };
+}
+
 const result = [
   {
     _createdAt: "2021-08-31T07:21:12Z",
@@ -10,8 +22,7 @@ const result = [
     massType: "Sprengstein",
     price: 50,
     project: {
-      _ref: "14ae09d2-3909-425b-bc06-77ab5e245819",
-      _type: "reference",
+      name: "Helgeland sør",
     },
     startDate: "2022-08-08",
     transportation: true,
@@ -27,8 +38,7 @@ const result = [
     massType: "Pukk",
     price: 10,
     project: {
-      _ref: "c5e8c340-a987-4fc3-be06-7c5788b69acd",
-      _type: "reference",
+      name: "Helgeland sør",
     },
     startDate: "2022-08-14",
     transportation: true,
@@ -44,8 +54,7 @@ const result = [
     massType: "Naturgrus",
     price: 50,
     project: {
-      _ref: "5d537407-45cb-4b28-8e0d-4cc923917f15",
-      _type: "reference",
+      name: "Helgeland sør",
     },
     startDate: "2022-08-01",
     transportation: false,
@@ -61,8 +70,7 @@ const result = [
     massType: "Grus",
     price: 20,
     project: {
-      _ref: "765e09cb-abed-4718-bbd9-f90cd3dc1594",
-      _type: "reference",
+      name: "Helgeland sør",
     },
     startDate: "2022-08-02",
     transportation: false,
