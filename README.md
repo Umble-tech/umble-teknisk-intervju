@@ -6,7 +6,7 @@ Oppgaven i dag, blir å implementere en utsnitt av plattformen til Massflow. En 
 
 Oppgavene er som følger:
 - Kode opp grensesnittet du ser i Figma.
-- Hente reell data fra Sanity (API) (*[Dokumentasjon](https://www.sanity.io/docs/overview-introduction)* `projectID: elxpf1tu` `dataset: production`)
+- Hente reell data fra Sanity (API) (*[Dokumentasjon](https://www.sanity.io/docs/js-client)* `projectID: elxpf1tu` `dataset: production`)
 - Implementere filteret du ser øverst i designet.
 
 ## Filer i prosjektet
